@@ -13,4 +13,4 @@ sudo nano /etc/default/grub
 # GRUB_SAVEDEFAULT="true"
 
 # Run the command to update the Grub config
-sudo update-grub
+sudo grub-mkconfig
