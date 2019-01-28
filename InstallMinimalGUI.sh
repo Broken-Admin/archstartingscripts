@@ -29,3 +29,6 @@ chmod +x $HOME/.config/polybar/launch.sh
 
 # Add following file to boot with i3
 echo "exec_always --no-startup-id $HOME/.config/polybar/launch.sh" >> ${HOME}/.config/i3/config
+
+# Exit root login
+Exit
