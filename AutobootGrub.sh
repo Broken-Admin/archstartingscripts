@@ -11,3 +11,6 @@ sudo nano /etc/default/grub
 # GRUB_HIDDEN_TIMEOUT_QUIET=true
 # ...
 # GRUB_SAVEDEFAULT="true"
+
+# Run the command to update the Grub config
+sudo update-grub
